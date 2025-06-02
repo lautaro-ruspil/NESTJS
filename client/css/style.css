@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+header {
+  background-color: #007bfd;
+  padding: 10px 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 5rem;
+}
+
+nav a {
+  text-decoration: none;
+
+  font-size: 1.5rem;
+  color: #333;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #fff;
+}
+
+h2 {
+  text-align: center;
+}
